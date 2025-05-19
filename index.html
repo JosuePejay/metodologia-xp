@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extreme Programming (XP) - Metodología Ágil</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1>Extreme Programming</h1>
+        <p>Metodología ágil centrada en calidad y adaptabilidad</p>
+        <a href="#agil" class="scroll-down">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">XP</div>
+      <ul class="nav-links">
+        <li><a href="#agil" class="active"><i class="fas fa-rocket"></i> Ágil</a></li>
+        <li><a href="#historia"><i class="fas fa-history"></i> Historia</a></li>
+        <li><a href="#principios"><i class="fas fa-star"></i> Principios</a></li>
+        <li><a href="#roles"><i class="fas fa-users"></i> Roles</a></li>
+        <li><a href="#acciones"><i class="fas fa-tasks"></i> Acciones</a></li>
+        <li><a href="#herramientas"><i class="fas fa-tools"></i> Herramientas</a></li>
+        <li><a href="#ejemplo"><i class="fas fa-laptop-code"></i> Ejemplo</a></li>
+        <li><a href="#comparativa"><i class="fas fa-balance-scale"></i> Comparativa</a></li>
+      </ul>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Qué es Ágil -->
+    <section id="agil" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Introducción</span>
+          <h2>¿Qué es el Desarrollo Ágil?</h2>
+          <p>El enfoque moderno para desarrollar software</p>
+        </div>
+        <div class="content-box">
+          <div class="two-columns">
+            <div class="column-text">
+              <p>El desarrollo ágil es un conjunto de metodologías que promueven:</p>
+              <ul class="styled-list">
+                <li><i class="fas fa-check"></i> Entregas incrementales</li>
+                <li><i class="fas fa-check"></i> Colaboración con el cliente</li>
+                <li><i class="fas fa-check"></i> Respuesta al cambio</li>
+              </ul>
+              <div class="xp-highlight">
+                <h3>Extreme Programming (XP)</h3>
+                <p>Metodología ágil que enfatiza la calidad del código mediante prácticas técnicas rigurosas y trabajo en equipo cercano.</p>
+              </div>
+            </div>
+            <div class="column-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Equipo de desarrollo" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Historia -->
+    <section id="historia" class="section bg-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Historia</span>
+          <h2>Origen y Evolución</h2>
+          <p>Desde sus inicios hasta la actualidad</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">1996</div>
+            <div class="timeline-content">
+              <h3>Chrysler C3</h3>
+              <p>Kent Beck desarrolla las primeras prácticas XP en el sistema de nómina de Chrysler.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">1999</div>
+            <div class="timeline-content">
+              <h3>Publicación del Libro</h3>
+              <p>"Extreme Programming Explained" establece los fundamentos de XP.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2001</div>
+            <div class="timeline-content">
+              <h3>Manifiesto Ágil</h3>
+              <p>XP se convierte en una de las metodologías fundacionales del movimiento ágil.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Principios -->
+    <section id="principios" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Fundamentos</span>
+          <h2>Principios Clave</h2>
+          <p>Los 5 valores esenciales de XP</p>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-icon" style="background-color: #4361ee;">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3>Comunicación</h3>
+            <p>Diálogo constante entre todos los miembros del equipo.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="background-color: #3a0ca3;">
+              <i class="fas fa-bullseye"></i>
+            </div>
+            <h3>Simplicidad</h3>
+            <p>Diseñar solo lo necesario para los requisitos actuales.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="background-color: #7209b7;">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h3>Retroalimentación</h3>
+            <p>Ciclos cortos para obtener feedback temprano.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="background-color: #f72585;">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Coraje</h3>
+            <p>Valentía para refactorizar y aceptar cambios.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon" style="background-color: #4cc9f0;">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Respeto</h3>
+            <p>Valorar las contribuciones de cada miembro.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roles -->
+      <section id="roles" class="section bg-light">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Equipo</span>
+            <h2>Roles en XP</h2>
+            <p>Quiénes participan y sus responsabilidades</p>
+          </div>
+          <div class="roles-grid">
+            <div class="role-card">
+              <i class="fas fa-code"></i>
+              <h3>Programador</h3>
+              <p>Responsable de escribir código, realizar pruebas unitarias, integrar cambios y refactorizar. Trabajan en parejas para mejorar la calidad.</p>
+            </div>
+            <div class="role-card">
+              <i class="fas fa-user-tie"></i>
+              <h3>Cliente</h3>
+              <p>Define las historias de usuario, establece prioridades y toma decisiones de negocio. Forma parte activa del equipo de desarrollo.</p>
+            </div>
+            <div class="role-card">
+              <i class="fas fa-chart-line"></i>
+              <h3>Tracker</h3>
+              <p>Monitorea el progreso del proyecto, mide la velocidad del equipo y ayuda a identificar problemas tempranamente.</p>
+            </div>
+            <div class="role-card">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <h3>Coach</h3>
+              <p>Experto en XP que guía al equipo en la adopción de las prácticas, asegurando que se sigan los valores y principios.</p>
+            </div>
+            <div class="role-card">
+              <i class="fas fa-tasks"></i>
+              <h3>Testers</h3>
+              <p>Diseñan y ejecutan pruebas funcionales, ayudan a definir criterios de aceptación y validan la calidad del producto.</p>
+            </div>
+            <div class="role-card">
+              <i class="fas fa-pencil-ruler"></i>
+              <h3>Diseñador</h3>
+              <p>Crea interfaces de usuario y diseña la arquitectura del sistema en colaboración con los programadores.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+          <!-- Acciones en XP -->
+      <section id="acciones" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Prácticas</span>
+            <h2><i class="fas fa-tasks"></i> Acciones en XP</h2>
+            <p>Qué actividades se realizan en esta metodología ágil</p>
+          </div>
+          <div class="practices-grid">
+            <div class="practice-card">
+              <div class="practice-icon">
+                <div class="action-number">1</div>
+              </div>
+              <div class="practice-content">
+                <h3>Planificación</h3>
+                <p>Reunión donde el cliente prioriza las historias de usuario para la próxima iteración, estimando su complejidad.</p>
+              </div>
+            </div>
+
+            <div class="practice-card">
+              <div class="practice-icon">
+                <div class="action-number">2</div>
+              </div>
+              <div class="practice-content">
+                <h3>Iteraciones Cortas</h3>
+                <p>Ciclos de desarrollo de 1-2 semanas donde se implementan historias de usuario completas y funcionales.</p>
+              </div>
+            </div>
+
+            <div class="practice-card">
+              <div class="practice-icon">
+                <div class="action-number">3</div>
+              </div>
+              <div class="practice-content">
+                <h3>Reuniones Diarias</h3>
+                <p>Stand-up meetings de 15 minutos donde cada miembro comparte: qué hizo, qué hará y obstáculos encontrados.</p>
+              </div>
+            </div>
+
+            <div class="practice-card">
+              <div class="practice-icon">
+                <div class="action-number">4</div>
+              </div>
+              <div class="practice-content">
+                <h3>Desarrollo en Parejas</h3>
+                <p>Dos programadores trabajan juntos en la misma estación, alternando roles entre conductor y navegante.</p>
+              </div>
+            </div>
+
+            <div class="practice-card">
+              <div class="practice-icon">
+                <div class="action-number">5</div>
+              </div>
+              <div class="practice-content">
+                <h3>Pruebas Unitarias (TDD)</h3>
+                <p>Escribir pruebas automatizadas antes del código para garantizar calidad y diseño limpio.</p>
+              </div>
+            </div>
+
+            <div class="practice-card">
+              <div class="practice-icon">
+                <div class="action-number">6</div>
+              </div>
+              <div class="practice-content">
+                <h3>Integración Continua</h3>
+                <p>Integrar y probar los cambios varias veces al día para detectar errores tempranamente.</p>
+              </div>
+            </div>
+
+            <div class="practice-card">
+              <div class="practice-icon">
+                <div class="action-number">7</div>
+              </div>
+              <div class="practice-content">
+                <h3>Refactorización</h3>
+                <p>Mejorar continuamente el diseño del código sin cambiar su comportamiento externo.</p>
+              </div>
+            </div>
+
+            <div class="practice-card">
+              <div class="practice-icon">
+                <div class="action-number">8</div>
+              </div>
+              <div class="practice-content">
+                <h3>Retrospectivas</h3>
+                <p>Reunión al final de cada iteración para reflexionar sobre qué funcionó bien y qué puede mejorar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Herramientas -->
+    <section id="herramientas" class="section bg-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Tecnología</span>
+          <h2>Herramientas Comunes</h2>
+          <p>Software utilizado en implementaciones XP</p>
+        </div>
+        <div class="tools-grid">
+          <div class="tool-category">
+            <h3><i class="fas fa-code"></i> Desarrollo</h3>
+            <ul>
+              <li>JUnit</li>
+              <li>Selenium</li>
+              <li>Mockito</li>
+            </ul>
+          </div>
+          <div class="tool-category">
+            <h3><i class="fas fa-server"></i> Integración</h3>
+            <ul>
+              <li>Jenkins</li>
+              <li>GitHub Actions</li>
+              <li>Travis CI</li>
+            </ul>
+          </div>
+          <div class="tool-category">
+            <h3><i class="fas fa-users"></i> Colaboración</h3>
+            <ul>
+              <li>Git/GitHub</li>
+              <li>Slack</li>
+              <li>JIRA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ejemplo -->
+    <section id="ejemplo" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Caso Práctico</span>
+          <h2>Ejemplo Real</h2>
+          <p>Implementación de XP en un proyecto</p>
+        </div>
+        <div class="case-study">
+          <h3>Desarrollo de Plataforma de Tutorías en Línea</h3>
+          <div class="case-details">
+            <div class="case-process">
+              <h4>Proceso con XP:</h4>
+              <ol>
+                <li>Iteraciones semanales con entregables funcionales.</li>
+                <li>Programación en parejas para todos los módulos (videochat, gestión de usuarios, calendario).</li>
+                <li>Historias de usuario definidas junto al cliente, priorizadas en cada iteración.</li>
+                <li>Pruebas automatizadas y refactorización continua para mantener calidad.</li>
+                <li>Reuniones diarias de 15 minutos (daily stand-up).</li>
+                <li>Presencia constante del cliente para dar retroalimentación inmediata.</li>
+              </ol>
+            </div>
+            <div class="case-results">
+              <h4>Resultados:</h4>
+              <ul>
+                <li>Plataforma lanzada en 10 semanas, dentro del presupuesto.</li>
+                <li>Reducción de errores críticos en producción en un 80%.</li>
+                <li>Adaptabilidad a cambios de requisitos sin afectar el ritmo.</li>
+                <li>Cliente muy satisfecho por la entrega continua de valor.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Comparativa -->
+    <section id="comparativa" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Análisis</span>
+          <h2>Comparativa</h2>
+          <p>XP vs otras metodologías</p>
+        </div>
+        <div class="comparison-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Aspecto</th>
+                <th>XP</th>
+                <th>Scrum</th>
+                <th>Cascada</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Enfoque</td>
+                <td>Prácticas técnicas</td>
+                <td>Gestión de procesos</td>
+                <td>Planificación rígida</td>
+              </tr>
+              <tr>
+                <td>Iteraciones</td>
+                <td>1-2 semanas</td>
+                <td>2-4 semanas</td>
+                <td>Varios meses</td>
+              </tr>
+              <tr>
+                <td>Flexibilidad</td>
+                <td>Alta</td>
+                <td>Media</td>
+                <td>Baja</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span>XP</span>
+          <p>Metodología Ágil de Desarrollo</p>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <p>© 2023 Presentación Extreme Programming</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
